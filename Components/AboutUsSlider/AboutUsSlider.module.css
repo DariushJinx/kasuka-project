@@ -1,0 +1,8 @@
+.swiper__img{
+    filter: grayscale(100);
+    transition: all .3s;
+}
+
+.swiper__img:hover{
+    filter: grayscale(0);
+}
