@@ -38,7 +38,7 @@ export default function TopBar() {
 
   return (
     <>
-      <Navbar expand="lg">
+      <Navbar expand="lg" className="position-absolute w-100">
         <Container>
           <Navbar.Brand href="#home" className={`${styles.brand_style}`}>
             <Image src="/images/png/logo.png" width={75} height={75} />
