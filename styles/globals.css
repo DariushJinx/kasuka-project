@@ -1,11 +1,16 @@
 @import "reset.module.css";
+@import 'remixicon/fonts/remixicon.css';
+
 
 :root {
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
-    --black-color:#000;
-    --white-color:#fff;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono",
+    "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  --black-color: #000;
+  --white-color: #fff;
+  --warning-color: #ffc107;
+
+
+  --oW3-color:rgba(255,255,255,.3);
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -54,11 +59,27 @@ body {
 }
 
 body {
- color: var(--black-color);
- font-family: var(--font-mono);
- font-size: 16px;
- font-weight: 500;
- line-height: 1.5;
+  color: var(--black-color);
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.css-10hburv-MuiTypography-root {
+  font-family: inherit !important;
+  font-weight: 600 !important;
+  color: var(--white-color);
+  transition: all .3s;
+}
+
+.css-10hburv-MuiTypography-root:hover{
+  color: var(--warning-color);
+
+}
+
+.css-tlelie-MuiListItemText-root {
+  margin: 0 !important;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -66,3 +87,15 @@ body {
     color-scheme: dark;
   }
 } */
+
+.css-bshv44-MuiButtonBase-root-MuiListItem-root:hover {
+  background: none !important;
+}
+
+.css-bgf8lz-MuiList-root {
+  padding: 0 !important;
+}
+
+.css-bshv44-MuiButtonBase-root-MuiListItem-root {
+  padding: 0.5rem !important;
+}
