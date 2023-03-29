@@ -15,7 +15,7 @@
     line-height: 1;
     font-weight: 700;
     letter-spacing: 2px;
-    color: var(--white-color);
+    color: var(--white-color) !important;
 }
 
 .brand_style:hover{
