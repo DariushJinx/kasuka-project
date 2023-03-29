@@ -1,0 +1,37 @@
+.btn_outline_warning{
+    background-color: transparent !important;
+    border: 1px solid var(--warning-color);
+    transition: all .3s;
+}
+
+.btn_outline_warning:hover{
+    background-color: var(--warning-color) !important;
+    border: 1px solid var(--warning-color);
+    color: var(--black-color);
+}
+
+.brand_style{
+    font-size: 32px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--white-color);
+}
+
+.brand_style:hover{
+    color: var(--white-color);
+}
+
+.active_link{
+    color: var(--warning-color) !important;
+}
+
+.nav_link{
+    font-weight:600 ;
+    transition: all .3s;
+    color: var(--white-color);
+}
+
+.nav_link:hover{
+    color: var(--warning-color) !important;
+}
