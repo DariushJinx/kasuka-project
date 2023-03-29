@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Header from "@/Components/Header/Header";
+import About from "@/Components/About/About";
+import AboutUsSlider from "@/Components/AboutUsSlider/AboutUsSlider";
 
 
 export default function Home() {
@@ -12,7 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      
+      <About />
+      <AboutUsSlider />
     </>
   );
 }
