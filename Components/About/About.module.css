@@ -1,0 +1,20 @@
+.about__details_title{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+.about__details_par{
+    text-align: justify;
+    max-width: 95%;
+}
+
+.about__details_desc_par{
+    text-align: justify;
+    max-width: 90%;
+}
+
+.about__details_desc_icon{
+    color: var(--warning-color);
+    font-size: 20px;
+}
