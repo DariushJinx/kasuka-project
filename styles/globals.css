@@ -6,8 +6,11 @@
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono",
     "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
   --black-color: #000;
+  --15-color : #151515;
   --white-color: #fff;
   --warning-color: #ffc107;
+  --84-color : #848484 ;
+  --aaa-color : #aaa;
 
 
   --oW3-color:rgba(255,255,255,.3);
