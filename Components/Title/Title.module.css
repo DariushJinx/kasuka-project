@@ -1,0 +1,19 @@
+.subTitle__details_vr {
+    width: 15%;
+    min-height: 1px;
+    align-self: center;
+    color: var(--warning-color);
+    opacity: 1;
+}
+
+.subTitle__details_title{
+    font-size: 14px;
+    line-height: 1px;
+    color: var(--aaa-color);
+}
+
+.mainTitle{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--15-color);
+}
