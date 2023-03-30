@@ -2,6 +2,8 @@ import Head from "next/head";
 import Header from "@/Components/Header/Header";
 import About from "@/Components/About/About";
 import AboutUsSlider from "@/Components/AboutUsSlider/AboutUsSlider";
+import Advertise from "@/Components/Advertise/Advertise";
+import Services from "@/Components/Services/Services";
 
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
       <Header />
       <About />
       <AboutUsSlider />
+      <Advertise />
+      <Services />
     </>
   );
 }
