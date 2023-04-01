@@ -4,6 +4,8 @@ import About from "@/Components/About/About";
 import AboutUsSlider from "@/Components/AboutUsSlider/AboutUsSlider";
 import Advertise from "@/Components/Advertise/Advertise";
 import Services from "@/Components/Services/Services";
+import Calling from "@/Components/Calling/Calling";
+import Menu from "@/Components/Menu/Menu";
 
 
 export default function Home() {
@@ -20,6 +22,8 @@ export default function Home() {
       <AboutUsSlider />
       <Advertise />
       <Services />
+      <Calling />
+      <Menu />
     </>
   );
 }
