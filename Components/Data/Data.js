@@ -107,4 +107,76 @@ let servicesData = [
   },
 ];
 
-export { dataHeaderBoxes, aboutSliderData, advertiseData, servicesData };
+let dataPortfolio = [
+  {
+    id: 1,
+    img: "/images/jpeg/portfolio-1.jpg",
+    titleHover: "برنامه 1",
+    subTitleHover: "برنامه",
+    category:"برنامه"
+  },
+  {
+    id: 2,
+    img: "/images/jpeg/portfolio-2.jpg",
+    titleHover: "اینترنت 3",
+    subTitleHover: "اینترنت",
+    category:"اینترنت"
+  },
+  {
+    id: 3,
+    img: "/images/jpeg/portfolio-3.jpg",
+    titleHover: "برنامه 2",
+    subTitleHover: "برنامه",
+    category:"برنامه"
+  },
+  {
+    id: 4,
+    img: "/images/jpeg/portfolio-4.jpg",
+    titleHover: "محصول 2",
+    subTitleHover: "محصول",
+    category:"محصول"
+  },
+  {
+    id: 5,
+    img: "/images/jpeg/portfolio-5.jpg",
+    titleHover: "اینترنت 2",
+    subTitleHover: "اینترنت",
+    category:"اینترنت"
+  },
+  {
+    id: 6,
+    img: "/images/jpeg/portfolio-6.jpg",
+    titleHover: "برنامه 3",
+    subTitleHover: "برنامه",
+    category:"برنامه"
+  },
+  {
+    id: 7,
+    img: "/images/jpeg/portfolio-7.jpg",
+    titleHover: "محصول 1",
+    subTitleHover: "محصول",
+    category:"محصول"
+  },
+  {
+    id: 8,
+    img: "/images/jpeg/portfolio-8.jpg",
+    titleHover: "محصول 3",
+    subTitleHover: "محصول",
+    category:"محصول"
+  },
+  {
+    id: 9,
+    img: "/images/jpeg/portfolio-9.jpg",
+    titleHover: "اینترنت 3",
+    subTitleHover: "اینترنت",
+    category:"اینترنت"
+  },
+];
+
+export {
+  dataHeaderBoxes,
+  aboutSliderData,
+  advertiseData,
+  servicesData,
+  dataPortfolio,
+};
