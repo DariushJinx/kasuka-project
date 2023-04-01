@@ -1,0 +1,10 @@
+.category__btn{
+    border: none;
+    background: transparent;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.active__click{
+    background: var(--warning-color);
+}
