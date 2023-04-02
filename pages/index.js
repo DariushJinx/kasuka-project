@@ -6,7 +6,7 @@ import Advertise from "@/Components/Advertise/Advertise";
 import Services from "@/Components/Services/Services";
 import Calling from "@/Components/Calling/Calling";
 import Menu from "@/Components/Menu/Menu";
-
+import Counter from "@/Components/Counter/Counter";
 
 export default function Home() {
   return (
@@ -24,6 +24,7 @@ export default function Home() {
       <Services />
       <Calling />
       <Menu />
+      <Counter />
     </>
   );
 }
