@@ -1,20 +1,19 @@
 @import "reset.module.css";
-@import 'remixicon/fonts/remixicon.css';
-
+@import "remixicon/fonts/remixicon.css";
 
 :root {
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono",
     "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
   --black-color: #000;
-  --15-color : #151515;
+  --15-color: #151515;
   --white-color: #fff;
   --warning-color: #ffc107;
-  --84-color : #848484 ;
-  --aaa-color : #aaa;
+  --84-color: #848484;
+  --aaa-color: #aaa;
+  --3b-color: #3b3b3b;
 
-
-  --oW3-color:rgba(255,255,255,.3);
-  --oW7-color:rgba(255,255,255,.7);
+  --oW3-color: rgba(255, 255, 255, 0.3);
+  --oW7-color: rgba(255, 255, 255, 0.7);
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -74,12 +73,11 @@ body {
   font-family: inherit !important;
   font-weight: 600 !important;
   color: var(--white-color);
-  transition: all .3s;
+  transition: all 0.3s;
 }
 
-.css-10hburv-MuiTypography-root:hover{
+.css-10hburv-MuiTypography-root:hover {
   color: var(--warning-color);
-
 }
 
 .css-tlelie-MuiListItemText-root {
@@ -104,7 +102,6 @@ body {
   padding: 0.5rem !important;
 }
 
-
 /* swier */
 
 .swiper {
@@ -112,7 +109,7 @@ body {
   height: 100%;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   align-items: center;
 }
 
@@ -134,11 +131,11 @@ body {
   object-fit: cover;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   width: 15px !important;
   height: 15px !important;
-} 
+}
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
   background: var(--warning-color) !important;
 }
