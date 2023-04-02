@@ -113,63 +113,90 @@ let dataPortfolio = [
     img: "/images/jpeg/portfolio-1.jpg",
     titleHover: "برنامه 1",
     subTitleHover: "برنامه",
-    category:"برنامه"
+    category: "برنامه",
   },
   {
     id: 2,
     img: "/images/jpeg/portfolio-2.jpg",
     titleHover: "اینترنت 3",
     subTitleHover: "اینترنت",
-    category:"اینترنت"
+    category: "اینترنت",
   },
   {
     id: 3,
     img: "/images/jpeg/portfolio-3.jpg",
     titleHover: "برنامه 2",
     subTitleHover: "برنامه",
-    category:"برنامه"
+    category: "برنامه",
   },
   {
     id: 4,
     img: "/images/jpeg/portfolio-4.jpg",
     titleHover: "محصول 2",
     subTitleHover: "محصول",
-    category:"محصول"
+    category: "محصول",
   },
   {
     id: 5,
     img: "/images/jpeg/portfolio-5.jpg",
     titleHover: "اینترنت 2",
     subTitleHover: "اینترنت",
-    category:"اینترنت"
+    category: "اینترنت",
   },
   {
     id: 6,
     img: "/images/jpeg/portfolio-6.jpg",
     titleHover: "برنامه 3",
     subTitleHover: "برنامه",
-    category:"برنامه"
+    category: "برنامه",
   },
   {
     id: 7,
     img: "/images/jpeg/portfolio-7.jpg",
     titleHover: "محصول 1",
     subTitleHover: "محصول",
-    category:"محصول"
+    category: "محصول",
   },
   {
     id: 8,
     img: "/images/jpeg/portfolio-8.jpg",
     titleHover: "محصول 3",
     subTitleHover: "محصول",
-    category:"محصول"
+    category: "محصول",
   },
   {
     id: 9,
     img: "/images/jpeg/portfolio-9.jpg",
     titleHover: "اینترنت 3",
     subTitleHover: "اینترنت",
-    category:"اینترنت"
+    category: "اینترنت",
+  },
+];
+
+let counterData = [
+  {
+    id: 1,
+    icon: "ri-customer-service-2-line",
+    num: 65,
+    par: "مشتریان خوشحال خوشحالیم که از معمار چیزی دریافت کنیم.",
+  },
+  {
+    id: 2,
+    icon: "ri-booklet-line",
+    num: 85,
+    par: "پروژه ها برای بدست آوردن و زمانی که او کل کسانی را که از او تعریف می کنند رد می کند و آنها را حقیر می شمارد",
+  },
+  {
+    id: 3,
+    icon: "ri-time-line",
+    num: 35,
+    par: "سال ها تجربه یا اجازه دهید به دنبال نوعی مزیت باشد",
+  },
+  {
+    id: 4,
+    icon: "ri-award-line",
+    num: 20,
+    par: "جوایز درد دردناک تر است در زمانی دیگر که هیچکس او را متهم نمی کند و هیچ وقت او را متهم نمی کند",
   },
 ];
 
@@ -179,4 +206,5 @@ export {
   advertiseData,
   servicesData,
   dataPortfolio,
+  counterData,
 };
