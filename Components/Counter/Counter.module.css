@@ -1,0 +1,23 @@
+.counter__desc_title{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--15-color);
+}
+
+.counter__desc_par{
+    text-align: justify;
+    font-weight: 500;
+}
+
+.counter__desc_items_details_social_icon{
+    color: var(--warning-color);
+    font-size: 36px;
+}
+
+
+
+.counter__desc_items_details_par{
+    color: var(--3b-color);
+    text-indent: 35px;
+}
