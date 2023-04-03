@@ -244,6 +244,33 @@ let testimonialData = [
   },
 ];
 
+let teamData = [
+  {
+    id: 1,
+    img: "/images/jpeg/team-1.jpg",
+    name: "والتر وایت",
+    job: "مدیر ارشد اجرایی",
+  },
+  {
+    id: 2,
+    img: "/images/jpeg/team-2.jpg",
+    name: "سارا جونسون",
+    job: "مدیر تولید",
+  },
+  {
+    id: 3,
+    img: "/images/jpeg/team-3.jpg",
+    name: "ویلیام اندرسون",
+    job: "CTO",
+  },
+  {
+    id: 4,
+    img: "/images/jpeg/team-4.jpg",
+    name: "آماندا چپسون",
+    job: "حسابدار",
+  },
+];
+
 export {
   dataHeaderBoxes,
   aboutSliderData,
@@ -252,4 +279,5 @@ export {
   dataPortfolio,
   counterData,
   testimonialData,
+  teamData,
 };
