@@ -8,6 +8,7 @@ import Calling from "@/Components/Calling/Calling";
 import Menu from "@/Components/Menu/Menu";
 import Counter from "@/Components/Counter/Counter";
 import Testimonial from "@/Components/Testimonial/Testimonial";
+import OurTeam from "@/Components/OurTeam/OurTeam";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <Menu />
       <Counter />
       <Testimonial />
+      <OurTeam />
     </>
   );
 }
