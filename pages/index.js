@@ -7,6 +7,7 @@ import Services from "@/Components/Services/Services";
 import Calling from "@/Components/Calling/Calling";
 import Menu from "@/Components/Menu/Menu";
 import Counter from "@/Components/Counter/Counter";
+import Testimonial from "@/Components/Testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Calling />
       <Menu />
       <Counter />
+      <Testimonial />
     </>
   );
 }
