@@ -1,0 +1,30 @@
+.footer{
+    background: var(--15-color);
+    padding: 60px 0;
+}
+
+.footer__item_title{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--white-color);
+}
+
+.footer__item_par{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--white-color);
+}
+
+.footer__item_socials_bg{
+    padding: 7px;
+    border-radius: 5px;
+    background: var(--oW7-color);
+    margin-left: 10px;
+    transition: all .3s;
+}
+
+.footer__item_socials_bg:hover{
+    background: var(--warning-color);
+}

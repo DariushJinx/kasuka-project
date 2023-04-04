@@ -1,0 +1,8 @@
+.footer__item_details_link{
+    color: var(--white-color);
+    transition: all .5s;
+}
+
+.footer__item_details_link:hover{
+    color: var(--warning-color);
+}
