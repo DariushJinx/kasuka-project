@@ -10,6 +10,7 @@ import Counter from "@/Components/Counter/Counter";
 import Testimonial from "@/Components/Testimonial/Testimonial";
 import OurTeam from "@/Components/OurTeam/OurTeam";
 import ContactUs from "@/Components/ContactUs/ContactUs";
+import FooterSection from "@/Components/FooterSection/FooterSection";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <Testimonial />
       <OurTeam />
       <ContactUs />
+      <FooterSection />
     </>
   );
 }
