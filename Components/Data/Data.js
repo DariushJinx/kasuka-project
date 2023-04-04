@@ -271,6 +271,27 @@ let teamData = [
   },
 ];
 
+let contactData=[
+  {
+    id:1,
+    icon:"ri-map-pin-line",
+    title:"مکان",
+    par:"تهران خیابان آزادی"
+  },
+  {
+    id:2,
+    icon:"ri-mail-send-line",
+    title:"ایمیل",
+    par:"info@example.com"
+  },
+  {
+    id:3,
+    icon:"ri-smartphone-line",
+    title:"شماره تماس",
+    par:"0123467889"
+  },
+]
+
 export {
   dataHeaderBoxes,
   aboutSliderData,
@@ -280,4 +301,5 @@ export {
   counterData,
   testimonialData,
   teamData,
+  contactData
 };
