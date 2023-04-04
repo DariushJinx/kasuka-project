@@ -9,6 +9,7 @@ import Menu from "@/Components/Menu/Menu";
 import Counter from "@/Components/Counter/Counter";
 import Testimonial from "@/Components/Testimonial/Testimonial";
 import OurTeam from "@/Components/OurTeam/OurTeam";
+import ContactUs from "@/Components/ContactUs/ContactUs";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <Counter />
       <Testimonial />
       <OurTeam />
+      <ContactUs />
     </>
   );
 }
