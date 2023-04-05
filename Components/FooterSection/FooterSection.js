@@ -9,7 +9,7 @@ export default function FooterSection() {
     <footer className={`${styles.footer} mt-5`}>
       <div className="container">
         <div className="row">
-          <div className="footer__item col-lg-3">
+          <div className="footer__item col-xl-3 col-sm-6">
             <h3 className={`${styles.footer__item_title}`}>
               <Image
                 src="/images/png/logo.png"

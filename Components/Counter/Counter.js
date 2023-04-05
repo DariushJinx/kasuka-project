@@ -19,7 +19,7 @@ export default function Counter() {
             />
           </div>
 
-          <div className="counter__desc col-lg-6">
+          <div className="counter__desc col-lg-6 mt-sm-5 mt-lg-0">
             <h3 className={`${styles.counter__desc_title}`}>
               شایسته ترین لذت را به هر حال ارائه می دهد
             </h3>

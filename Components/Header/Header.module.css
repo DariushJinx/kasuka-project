@@ -1,9 +1,19 @@
-.header_style {
+.header{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../public/images/jpeg/header_bg.jpg);
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.header_style {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 150px 0;
 }
 
 .header__boxes_item {

@@ -7,7 +7,7 @@ export default function MenuDetails({allMenus}) {
        <div className="row">
        {
             allMenus.map(menu => (
-                <div className={`${styles.menu__details_item} col-lg-4 mt-4`}>
+                <div className={`${styles.menu__details_item} col-lg-4 col-md-6 mt-4`}>
                     
                     <div className="menu__details_item_details position-relative">
 

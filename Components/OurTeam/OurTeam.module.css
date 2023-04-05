@@ -12,7 +12,6 @@
 }
 
 .ourTeam__items_item_details_overlay_socials_bg{
-    width: 40px;
     border-radius: 5px;
     background: var(--oW7-color);
     transition: all .5s;
@@ -42,7 +41,7 @@
 
 .ourTeam__items_item_details_overlay{
     bottom: 40%;
-    right: 58px;
+    right: 27%;
     transition: all .3s;
     opacity: 0;
 }

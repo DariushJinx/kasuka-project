@@ -4,8 +4,8 @@ export default function About() {
   return (
     <div className="about mt-5">
       <div className="container">
-        <div className="row">
-          <div className="about__details col-lg-6">
+        <div className="row flex-sm-column-reverse flex-xl-row">
+          <div className="about__details col-xl-6 mt-sm-3">
             <h2 className={`${styles.about__details_title}`}>
               شرکت دیجیتال کاسوکا
             </h2>
@@ -67,11 +67,11 @@ export default function About() {
             </p>
           </div>
 
-          <div className="about__image col-lg-6">
+          <div className="about__image col-xl-6">
             <Image
               src="/images/jpeg/about.jpg"
               alt="about"
-              className="rounded-4"
+              className="rounded-4 w-100"
               width={636}
               height={477}
               quality={100}

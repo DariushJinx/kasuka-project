@@ -16,7 +16,7 @@ import Image from "next/image";
 
 export default function AboutUsSlider() {
   return (
-    <>
+    <div className="aboutSlider mt-5">
       <div className="container">
         <Swiper
           slidesPerView={5}
@@ -37,7 +37,7 @@ export default function AboutUsSlider() {
               <Image
                 key={info.id}
                 src={info.img}
-                className={`${styles.swiper__img}`}
+                className={`${styles.swiper__img} w-100`}
                 alt="client"
                 width={150}
                 height={0}
@@ -46,6 +46,6 @@ export default function AboutUsSlider() {
           ))}
         </Swiper>
       </div>
-    </>
+    </div>
   );
 }

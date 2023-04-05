@@ -13,12 +13,12 @@ export default function OurTeam() {
           <div className="row">
             {
                 teamData.map(data => (
-            <div className={`${styles.ourTeam__items_item} col-lg-3 mt-5 position-relative`}>
+            <div className={`${styles.ourTeam__items_item} col-xl-3 col-md-6 mt-5 position-relative`}>
 
               <div className="ourTeam__items_item_details rounded-top rounded-bottom">
                 <Image
                   src={data.img}
-                  width={306}
+                  width={500}
                   height={306}
                   quality={100}
                   className="w-100 rounded-top"
@@ -37,30 +37,30 @@ export default function OurTeam() {
 
               <div className={`${styles.ourTeam__items_item_details_overlay} position-absolute`}>
                 <div className="container">
-                  <div className="ourTeam__items_item_details_overlay_socials text-center d-flex align-items-center">
+                  <div className="ourTeam__items_item_details_overlay_socials d-flex align-items-center justify-content-center">
                     <span
-                      className={`${styles.ourTeam__items_item_details_overlay_socials_bg} text-center mx-1`}
+                      className={`${styles.ourTeam__items_item_details_overlay_socials_bg}   w-100 p-2 p-md-1 p-lg-2 p-xl-1`}
                     >
                       <i
                         class={`ri-twitter-line ${styles.ourTeam__items_item_details_overlay_socials_icon}`}
                       ></i>
                     </span>
                     <span
-                      className={`${styles.ourTeam__items_item_details_overlay_socials_bg} text-center mx-1`}
+                      className={`${styles.ourTeam__items_item_details_overlay_socials_bg}  mx-1 w-100 p-2 p-md-1 p-lg-2 p-xl-1`}
                     >
                       <i
                         class={`ri-facebook-circle-line ${styles.ourTeam__items_item_details_overlay_socials_icon}`}
                       ></i>
                     </span>
                     <span
-                      className={`${styles.ourTeam__items_item_details_overlay_socials_bg} text-center mx-1`}
+                      className={`${styles.ourTeam__items_item_details_overlay_socials_bg}  w-100 p-2 p-md-1 p-lg-2 p-xl-1`}
                     >
                       <i
                         class={`ri-instagram-line ${styles.ourTeam__items_item_details_overlay_socials_icon}`}
                       ></i>
                     </span>
                     <span
-                      className={`${styles.ourTeam__items_item_details_overlay_socials_bg} text-center mx-1`}
+                      className={`${styles.ourTeam__items_item_details_overlay_socials_bg}  me-1 w-100 p-2 p-md-1 p-lg-2 p-xl-1`}
                     >
                       <i
                         class={`ri-linkedin-box-line ${styles.ourTeam__items_item_details_overlay_socials_icon}`}

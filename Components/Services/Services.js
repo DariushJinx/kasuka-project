@@ -13,7 +13,7 @@ export default function Services() {
             <div className="row">
               {servicesData.map((info) => (
                 <div
-                  className="services__items_item mt-4 col-lg-4"
+                  className="services__items_item mt-4 col-lg-4 col-md-6"
                   key={info.id}
                 >
                   <div

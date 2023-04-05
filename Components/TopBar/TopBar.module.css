@@ -10,6 +10,10 @@
     color: var(--black-color);
 }
 
+.navbar__nav{
+    z-index: 3;
+}
+
 .brand_style{
     font-size: 32px;
     line-height: 1;
@@ -30,8 +34,25 @@
     font-weight:600 ;
     transition: all .3s;
     color: var(--white-color);
+    text-decoration: none;
+    padding: 10px;
+    background: var(--ddd-color);
 }
 
 .nav_link:hover{
     color: var(--warning-color) !important;
 }
+
+/* responsive */
+
+@media (min-width: 300px) and (max-width: 992px) {
+    .nav_link {
+      background: var(--ddd-color);
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .nav_link {
+      background: transparent;
+    }
+  }

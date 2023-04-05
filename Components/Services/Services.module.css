@@ -10,6 +10,7 @@
 .services__items_item_details{
     border: 1px solid var(--15-color);
     padding: 35px 20px;
+    height: 100%;
 }
 
 .services__items_item_details_social{

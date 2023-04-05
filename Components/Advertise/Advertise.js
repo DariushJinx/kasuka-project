@@ -14,15 +14,15 @@ export default function Advertise() {
               width={636}
               height={477}
               quality={100}
-              className="rounded-4"
+              className="rounded-4 w-100"
             />
           </div>
 
-          <div className="advertise__details col-lg-6">
+          <div className="advertise__details col-lg-6 mt-sm-5 mt-lg-0 mt-xl-2W">
             <div className="row">
               {advertiseData.map((info) => (
                 <div
-                  className="advertise__details_item col-lg-12 d-flex align-items-center my-lg-4"
+                  className="advertise__details_item col-lg-12 d-flex align-items-center my-lg-4 mt-sm-3 mt-lg-3 mt-xl-4"
                   key={info.id}
                 >
                   <div className="advertise__details_item_social ms-3">
