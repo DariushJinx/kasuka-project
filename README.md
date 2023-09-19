@@ -1,3 +1,23 @@
+#kasuka-project
+
+<div>  
+<h2>📋  &nbsp; Languages :</h2>
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+</div>
+
+
+![languages](https://img.shields.io/github/languages/count/DariushJinx/kasuka-project)
+
+![commit activity](https://img.shields.io/github/commit-activity/m/DariushJinx/kasuka-project)
+
+<div>  
+<h2>📚 &nbsp; Frameworks, Platforms and Libraries :</h2>
+   <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" />
+   <img src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" />
+</div>
+
+##
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
